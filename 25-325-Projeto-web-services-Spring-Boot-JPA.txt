@@ -16,4 +16,47 @@ Github:
 https://github.com/acenelio/workshop-springboot2-jpa
 
 
+user.name=Francisco Casemiro Lira
+user.email=franciscoclira@hotmail.com
 
+
+Abrir git bash: 
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/temp/ws-sts/course
+$ git init
+Initialized empty Git repository in C:/temp/ws-sts/course/.git/
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/temp/ws-sts/course (main)
+$ git config --global user.name "Francisco Casemiro Lira"
+$ git config --global user.email "franciscoclira@hotmail.com"
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/temp/ws-sts/course (main)
+$
+
+$ git add . 
+$ git commit -m "Project created"
+
+--> criar o projeto no github na web e depois de criar copia a linha abaixo para o git bash:  
+    
+$ git remote add origin git@github.com:FranciscoCLira/course-springboot-2-java-11.git
+
+
+
+===================
+
+…or create a new repository on the command line
+
+echo "# course-springboot-2-java-11" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:FranciscoCLira/course-springboot-2-java-11.git
+git push -u origin master
+
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:FranciscoCLira/course-springboot-2-java-11.git
+git branch -M master
+git push -u origin master
